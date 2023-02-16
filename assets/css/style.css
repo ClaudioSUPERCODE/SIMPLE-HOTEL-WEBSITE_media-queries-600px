@@ -1,0 +1,416 @@
+@font-face {
+    font-family: "Ubuntu-Regular.ttf";
+    src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* -------------HEADER------------- */
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .hotellogo {
+    padding: 10vh 0;
+}
+
+header nav a {
+    color: rgb(148, 107, 3);
+    text-decoration: none;
+    font-family: "Ubuntu-Regular.ttf";
+    font-size: 2.5rem;
+    margin: 0 20px;
+}
+
+header nav {
+    margin-bottom: 10vh;
+}
+
+header nav a img {
+    width: 25px;
+}
+
+header div {
+    background-image: url("../pics/hero_image.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Ubuntu-Regular.ttf";
+    font-size: 1.5rem;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div h1 {
+    font-size: 7rem;
+    padding: 35vh 0 1vh 0;
+}
+
+header div h2 {
+    padding: 0 0 1vh 0;
+}
+
+header div a {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(214, 171, 63);
+    font-size: 2.2rem;
+    padding: 10px 60px;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-bottom: 15vh;
+}
+
+/* -----------MAIN--FACILITIES-------*/
+
+main .facilities {
+    text-align: center;
+}
+
+main .facilities h3 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: "Ubuntu-Regular.ttf";
+    color: rgb(148, 107, 3);
+    padding: 40px;
+}
+
+main .facilities img {
+    padding: 0 50px;
+    margin-bottom: 15vh;
+}
+
+/* -----------MAIN--ROOMS------------ */
+
+main .rooms h3 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: "Ubuntu-Regular.ttf";
+    color: rgb(148, 107, 3);
+    padding-bottom: 40px;
+}
+
+main .rooms .roomsrow1{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    font-family: "Ubuntu-Regular.ttf";
+    color: #fff;
+    font-size: 3rem;
+}
+
+main .rooms .roomsrow1 .twinroom {
+    background-image: url("../pics/standard_twin_room.png");
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+main .rooms .roomsrow1 .standartroom {
+    background-image: url("../pics/standard_room.png");
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main .rooms .roomsrow2{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    font-family: "Ubuntu-Regular.ttf";
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 15vh;
+}
+
+main .rooms .roomsrow2 .viewroom {
+    background-image: url("../pics/standard_view_room.png");
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main .rooms .roomsrow2 .deluxeroom {
+    background-image: url("../pics/deluxe_room.png");
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main .rooms .roomsrow1 a {
+    background-color:  rgb(214, 171, 63);
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 40px;
+}
+
+main .rooms .roomsrow2 a {
+    background-color:  rgb(214, 171, 63);
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 40px;
+}
+
+main .getroom {
+    text-align: center;
+}
+
+main .getroom a {
+    font-family: "Ubuntu-Regular.ttf";
+    background-color:  rgb(214, 171, 63);
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 10px 8vw;
+    margin: 40px;
+}
+
+/* ---------FOOTER---------- */
+
+footer {
+    margin-top: 20vh;
+    background-color: #111111;
+    font-family: "Ubuntu-Regular.ttf";
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    padding-bottom: 10vh;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Ubuntu-Regular.ttf";
+    margin-left: 5%;
+}
+
+footer article img {
+    width: 60%;
+    padding-bottom: 40px;
+}
+
+footer article h5 {
+    font-size: 2rem;
+}
+
+footer article p {
+    font-size: 1.8rem;
+    color: rgb(151, 148, 148);
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Ubuntu-Regular.ttf";
+    gap: 20px;
+}
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    font-size: 3.5rem;
+    margin-right: 5%;
+}
+
+footer form .email {
+    font-family: "Ubuntu-Regular.ttf";
+    padding: 20px;
+    border-radius: 10px;
+    width: 25vw;
+    font-size: 2rem;
+    border: none;
+}
+
+footer form .button {
+    padding: 20px;
+    border-radius: 10px;
+    background-color:  rgb(214, 171, 63);
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+}
+
+/* -------------MEDIA QUERIES 600PX-------- */
+
+@media only screen and (max-width: 600px){
+
+/* ---------HEADER---------- */
+
+header .hotellogo {
+    padding: 5%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header nav a {
+    font-size:4.5rem;
+    padding: 10px;
+}
+
+header div h1 {
+    text-align: center;
+}
+
+/* -------FACILITIES---------- */
+
+main .facilities h3 {
+    font-size: 5rem;
+}
+
+main .facilities img {
+    margin-bottom: 20px;
+}
+
+/* -------------ROOMS------------ */
+
+main .rooms .roomsrow1 {
+    flex-direction: column;
+    align-items: center;
+}
+
+main .rooms .roomsrow1 .twinroom {
+    width: 90%;
+}
+
+main .rooms .roomsrow1 .standartroom {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+main .rooms h3 {
+    font-size: 5rem;
+}
+
+main .rooms .roomsrow2 {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+main .rooms .roomsrow2 .viewroom {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+main .rooms .roomsrow2 .deluxeroom {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+/* ------------FOOTER------------- */
+
+footer {
+    margin-top: 8vh;
+    height: 125vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer article {
+    margin: 0;
+    align-items: center;
+}
+
+footer article img {
+    padding-bottom: 20px;
+}
+
+footer article h5 {
+    font-size: 3.5rem;
+}
+
+footer article p {
+    font-size: 3rem;
+}
+
+footer nav {
+    margin: 30px 0;
+}
+
+footer nav a {
+    font-size: 4rem;
+}
+
+footer form {
+    margin-right: 0;
+}
+
+footer form h6 {
+    font-size: 4rem;
+    color: grey;
+}
+
+footer form .email {
+    width: 100%;
+}
+
+}
